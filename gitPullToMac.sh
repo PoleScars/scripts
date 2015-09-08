@@ -1,5 +1,9 @@
 echo ‘Pulls GitHub directories’
 
+echo ‘Pulling scripts from GitHub’
+cd ~/Documents/scripts
+git pull origin master
+
 echo ‘Pulling LaTeX Thesis from GitHub’
 cd ~/Documents/GitHub/LaTeX_Thesis
 git pull origin master
