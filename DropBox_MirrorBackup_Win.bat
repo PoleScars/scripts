@@ -7,9 +7,9 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 
-REM "DropBox Backup"
-Robocopy.exe "C:\Users\z3492622\Documents\PhD Project" "C:\Users\z3492622\Dropbox\PhD Project" /E 
+REM "DropBox Mirror Backup - Mirrors Windows machine into Dropbox"
+Robocopy.exe "C:\Users\z3492622\Documents\PhD Project" "C:\Users\z3492622\Dropbox\PhD Project" /MIR 
 
-REM "Backup to DropBox complete"
+REM "Mirror Backup to DropBox complete"
 
 timeout 300
