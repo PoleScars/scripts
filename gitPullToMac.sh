@@ -27,3 +27,7 @@ git pull origin master
 echo ‘Pulling Ultrastable-Mg-Zn-Ca-BMGs from GitHub’
 cd ~/Documents/GitHub/Ultrastable-Mg-Zn-Ca-BMGs
 git pull origin master
+
+echo ‘Pulling MgZnCa_TFMG_SMG from GitHub’
+cd ~/Documents/GitHub/MgZnCa_TFMG_SMG
+git pull origin master
