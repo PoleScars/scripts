@@ -8,8 +8,8 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 REM "USB SEM & XRD to PhD Project Transfer"
-Robocopy.exe "E:\SEM" "C:\Users\z3492622\Documents\PhD Project\Results\SEM" /E
-Robocopy.exe "E:\XRD" "C:\Users\z3492622\Documents\PhD Project\Results\XRD" /E
+Robocopy.exe "E:\SEM" "C:\Users\Scott\Documents\PhD Project\Results\SEM" /E
+Robocopy.exe "E:\XRD" "C:\Users\Scott\Documents\PhD Project\Results\XRD" /E
 REM "USB SEM & XRD to PhD Project Transfer complete"
 
 timeout 300

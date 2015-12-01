@@ -7,9 +7,10 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 
-REM "H:\ Drive Backup"
-Robocopy.exe "C:\Users\Scott\Documents\PhD Project" "H:\Master PhD Backup" /E
+REM "J:\ Drive Backup"
+Robocopy.exe "C:\Users\Scott\Documents\PhD Project" "J:\POSTGRADS\Scott Gleason\Master PhD Backup" /E ^
+/XD "C:\Users\Scott\Documents\PhD Project\University of Queensland"
 
-REM "Backup to H:\ Drive complete"
+REM "Backup to J:\ Drive complete"
 
 timeout 300

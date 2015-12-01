@@ -8,9 +8,9 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 REM "H:\ Drive Backup"
-Robocopy.exe "C:\Users\z3492622\Documents" "H:\Secondary Documents Backup" /E ^
-/XD "C:\Users\z3492622\Documents\PhD Project" "C:\Users\z3492622\Documents\My Music" ^
-"C:\Users\z3492622\Documents\My Pictures" "C:\Users\z3492622\Documents\My Videos"
+Robocopy.exe "C:\Users\Scott\Documents" "H:\Secondary Documents Backup" /E ^
+/XD "C:\Users\Scott\Documents\PhD Project" "C:\Users\Scott\Documents\My Music" ^
+"C:\Users\Scott\Documents\My Pictures" "C:\Users\Scott\Documents\My Videos"
 
 REM "Secondary Backup to H:\ Drive complete"
 

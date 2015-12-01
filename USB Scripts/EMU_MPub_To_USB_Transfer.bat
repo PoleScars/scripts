@@ -13,7 +13,7 @@ REM "EMU s3400-I to EMU Public Drive Transfer complete"
 
 
 REM "EMU Public Drive to USB Transfer"
-Robocopy.exe "M:\emupublic\z3492622-SG" "G:\SEM" /E ^
+Robocopy.exe "M:\emupublic\z3492622-SG" "F:\SEM" /E ^
 /XD "M:\emupublic\z3492622-SG\Old Data"
 
 REM "EMU Public Drive to USB Transfer complete"
