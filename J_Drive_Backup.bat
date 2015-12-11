@@ -8,7 +8,7 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 REM "J:\ Drive Backup"
-Robocopy.exe "C:\Users\Scott\Documents\PhD Project" "infpwfs405.ad.unsw.edu\MATS\POSTGRADS\Scott Gleason\Master PhD Backup" /E ^
+Robocopy.exe "C:\Users\Scott\Documents\PhD Project" "J:\POSTGRADS\Scott Gleason\Master PhD Backup" /E ^
 /XD "C:\Users\Scott\Documents\PhD Project\University of Queensland"
 
 REM "Backup to J:\ Drive complete"
