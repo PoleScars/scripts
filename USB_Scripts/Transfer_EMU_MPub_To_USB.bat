@@ -16,6 +16,10 @@ REM "EMU SEM230 to EMU Public Drive Transfer"
 Robocopy.exe "M:\emuimages\sem230\Scott Gleason" "M:\emupublic\z3492622-SG\SEM" /E
 REM "EMU SEM230 to EMU Public Drive Transfer complete"
 
+REM "EMU SEM450 to EMU Public Drive Transfer"
+Robocopy.exe "M:\emuimages\sem450\z3492622" "M:\emupublic\z3492622-SG\SEM" /E
+REM "EMU SEM450 to EMU Public Drive Transfer complete"
+
 REM "EMU AFM to EMU Public Drive Transfer"
 Robocopy.exe "M:\emuimages\afm\z3492622" "M:\emupublic\z3492622-SG\AFM\archive" /E
 REM "EMU AFM to EMU Public Drive Transfer complete"
