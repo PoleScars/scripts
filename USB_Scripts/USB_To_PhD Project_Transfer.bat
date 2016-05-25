@@ -13,6 +13,7 @@ Robocopy.exe "G:\AFM" "D:\Scott\Documents\PhD Project\Results\AFM" /E
 Robocopy.exe "G:\FIB" "D:\Scott\Documents\PhD Project\Results\FIB" /E
 Robocopy.exe "G:\XRD" "D:\Scott\Documents\PhD Project\Results\XRD" /E
 Robocopy.exe "G:\Stylus Profiler" "D:\Scott\Documents\PhD Project\Results\Stylus Profiler" /E
-REM "USB SEM, FIB, AFM, & XRD to PhD Project Transfer complete"
+Robocopy.exe "G:\DSC" "D:\Scott\Documents\PhD Project\Results\DSC" /E
+REM "USB SEM, FIB, AFM, DSC, & XRD to PhD Project Transfer complete"
 
 timeout 300
