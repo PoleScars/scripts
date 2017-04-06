@@ -8,7 +8,7 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 
 
 REM "DSC Drive TO USB Transfer"
-Robocopy.exe "C:\Users\User\Desktop\Scott" "D:\DSC" /E
+Robocopy.exe "C:\Users\dsc\Desktop\Scott" "G:\DSC" /E
 REM "DSC Drive TO USB Transfer complete"
 
 
