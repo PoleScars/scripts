@@ -1,4 +1,4 @@
-echo ‘Pulls GitHub directories’
+﻿echo ‘Pulls GitHub directories’
 
 echo ‘Pulling scripts from GitHub’
 cd ~/Documents/GitHub/scripts
@@ -30,4 +30,8 @@ git pull origin master
 
 echo ‘Pulling MgZnCa_TFMG_SMG from GitHub’
 cd ~/Documents/GitHub/MgZnCa_TFMG_SMG
+git pull origin master
+
+echo ‘Pulling Paper01_StructuralEnthalpyAndCrystallizationPathways from GitHub’
+cd ~/Documents/GitHub/Paper01_StructuralEnthalpyAndCrystallizationPathways
 git pull origin master
