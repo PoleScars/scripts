@@ -10,7 +10,8 @@ REM "NOTE: Open Or Locked files will NOT copy!!!"
 REM "J:\ Drive Backup"
 Robocopy.exe "D:\Scott\Documents" "J:\Scott Gleason\Secondary Documents Backup" /E ^
 /XD "D:\Scott\Documents\PhD Project" "D:\Scott\Documents\My Music" ^
-"D:\Scott\Documents\My Pictures" "D:\Scott\Documents\My Videos"
+"D:\Scott\Documents\My Pictures" "D:\Scott\Documents\My Videos" ^
+"D:\Scott\Documents\MEGA"
 
 REM "Secondary Backup to J:\ Drive complete"
 
